@@ -9,6 +9,7 @@ test_cases = [
     ("E1. Empty",        []),
     ("E2. One element",  [42]),
     ("E3. Two elements", [2, 1]),
+    ("F. Nearly Sorted", [1, 2, 4, 3, 5, 6, 7])
 ]
 
 # (name, function) pairs
