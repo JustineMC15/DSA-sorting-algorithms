@@ -17,7 +17,7 @@ python main.py
 ## Sources
 
 - Michael Sambol's videos and repo: https://github.com/msambol/dsa/tree/master/sort
-  (`bubble sort, insertion sort, and selection_sort` was adapted from it; counters and variable names changed.)
+  (`bubble sort, insertion sort, and selection_sort` were adapted from it; counters and variable names changed.)
 - https://www.youtube.com/watch?v=xli_FI7CuzA
 - https://www.youtube.com/watch?v=JU767SDMDvA
 - https://www.youtube.com/watch?v=g-PGLbMth_g
