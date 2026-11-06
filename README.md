@@ -7,21 +7,27 @@ comparison counter and a swap/shift counter.
 
 - `sorting.py` - the three sort functions. Each sorts a list of integers in place and returns `(comparisons, swaps_or_shifts)`.
 - `main.py` - driver that runs all three on test cases A to E and prints the sorted output with the counts.
+- `merge-sort.py ` - merge_sort and merge function with test cases.
 
 ## Run
 
 ```
 python main.py
 ```
+`Merge Sort`
+```
+python merge-sort.py
+```
 
 ## Sources
 
 - Michael Sambol's videos and repo: https://github.com/msambol/dsa/tree/master/sort
-  (`bubble sort, insertion sort, and selection_sort` was adapted from it; counters and variable names changed.)
+  (`bubble sort, insertion sort, and selection_sort` were adapted from it; counters and variable names changed.)
 - https://www.youtube.com/watch?v=xli_FI7CuzA
 - https://www.youtube.com/watch?v=JU767SDMDvA
 - https://www.youtube.com/watch?v=g-PGLbMth_g
-
+  (`merge sort`)
+- https://www.youtube.com/watch?v=4VqmGXwpLqc
 ### License notice for the adapted code
 
 MIT License
