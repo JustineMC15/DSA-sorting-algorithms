@@ -10,7 +10,7 @@ comparison counter and a swap/shift counter.
 - `merge-sort.py ` - merge_sort and merge function with test cases.
 
 ## Run
-
+`Bubble, Selection, Insertion sorts`
 ```
 python main.py
 ```
@@ -26,6 +26,7 @@ python merge-sort.py
 - https://www.youtube.com/watch?v=xli_FI7CuzA
 - https://www.youtube.com/watch?v=JU767SDMDvA
 - https://www.youtube.com/watch?v=g-PGLbMth_g
+
   (`merge sort`)
 - https://www.youtube.com/watch?v=4VqmGXwpLqc
 ### License notice for the adapted code
