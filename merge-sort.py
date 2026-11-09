@@ -17,7 +17,7 @@ def merge(left, right):
     i = j = 0
     # While both arrays have elements
     while i < len(left) and j < len(right):
-        if left[i] < right[j]:
+        if left[i] <= right[j]:
             output.append(left[i])
             i += 1
         else:
@@ -30,12 +30,12 @@ def merge(left, right):
     return output
 
 def main():
-    unsorted = [7, 23, 4, 42, 15, 38, 11, 49, 19, 31, 26, 50]
-    sorted = merge_sort(unsorted)
+    unsorted_input = [7, 23, 4, 42, 15, 38, 11, 49, 19, 31, 26, 50]
+    sorted = merge_sort(unsorted_input)
     print(sorted)
 
-    unsorted = [14, 33, 8, 47]
-    sorted = merge_sort(unsorted)
+    unsorted_input = [14, 33, 8, 47]
+    sorted = merge_sort(unsorted_input)
     print(sorted)
 
     empty = []
